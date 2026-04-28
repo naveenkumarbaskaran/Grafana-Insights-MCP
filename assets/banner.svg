@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2d1f0e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f97316;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#eab308;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="200" rx="12" fill="url(#bg)"/>
+  <rect x="0" y="188" width="800" height="12" rx="0" fill="url(#accent)" opacity="0.8"/>
+  <text x="400" y="95" font-size="42" font-weight="bold" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">Grafana Insights MCP</text>
+  <text x="400" y="135" font-size="16" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">MCP Server for Grafana Dashboard Queries &amp; Alerting Insights</text>
+  <circle cx="85" cy="50" r="4" fill="#f97316" opacity="0.5"/><circle cx="115" cy="65" r="3" fill="#eab308" opacity="0.6"/>
+  <circle cx="105" cy="38" r="4" fill="#f97316" opacity="0.4"/>
+  <line x1="85" y1="50" x2="115" y2="65" stroke="#f97316" stroke-width="1" opacity="0.3"/>
+  <line x1="115" y1="65" x2="105" y2="38" stroke="#eab308" stroke-width="1" opacity="0.3"/>
+  <circle cx="700" cy="50" r="4" fill="#eab308" opacity="0.5"/><circle cx="730" cy="65" r="3" fill="#f97316" opacity="0.6"/>
+  <circle cx="720" cy="38" r="4" fill="#eab308" opacity="0.4"/>
+  <line x1="700" y1="50" x2="730" y2="65" stroke="#eab308" stroke-width="1" opacity="0.3"/>
+  <line x1="730" y1="65" x2="720" y2="38" stroke="#f97316" stroke-width="1" opacity="0.3"/>
+</svg>
